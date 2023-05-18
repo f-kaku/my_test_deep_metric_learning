@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deep_metric_learning"
+version = "0.1.0"
+description = ""
+authors = ["f-kaku <fkaku3314@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.3"
+pandas = "^2.0.1"
+plotly = "^5.14.1"
+keras = "^2.12.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
